@@ -3,12 +3,12 @@
   "draft": false,
   "prerelease": true,
   "packageName": "com.xcheny.seeddock.beta",
-  "versionCode": 7,
-  "versionName": "0.1.0-beta.7",
+  "versionCode": 8,
+  "versionName": "0.1.0-beta.8",
   "minSdk": 24,
-  "apkSize": 11339203,
-  "sha256": "b63acdd067b831f1f0d8e99376b64368e150f50d106567385231a606c92d141a",
+  "apkSize": 11380163,
+  "sha256": "9342bf3e46c3653a3d656ca121ec1f582092b4b10b97616d70f4c177879548e3",
   "signingCertificateSha256": "9790d474040e3530e39a052bbd1fd5d25e68e0e9868c4d3202959ce0d6e26327",
-  "releaseNotes": "# SeedDock 0.1.0 Beta 7\n\n- 修复高级筛选中的辅种判断，支持「全部／是／否」，任务卡片标出识别到的辅种。仅在当前下载器内按保存路径和精确字节大小快速匹配。\n- 新增 3 秒自动刷新和自定义间隔，兼容已有的 15／30／60 秒与手动刷新配置。\n- 应用设置和单服务器编辑支持连接超时及只读请求失败重试。单服务器可继承全局值或独立配置。\n- 服务器卡片右滑提供「刷新／设置」，左滑提供「编辑／删除」。删除需要二次确认。\n- 编辑服务器集中管理分组、组内编号、置顶、卡片显示偏好和网络配置。\n- 统一首页和任务列表的设置齿轮图标。\n- 简化服务器备份提示，仍可导入和导出 JSON。导出前会显示备份范围。\n\n## 辅种识别说明\n\n辅种识别仅在当前下载器内根据种子保存路径和大小进行快速匹配，不检查文件内容和 InfoHash。因此结果仅供筛选参考，可能存在误判或漏判，请勿将其作为文件完全相同的证明。\n",
-  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-7/SeedDock-beta-7.apk"
+  "releaseNotes": "# SeedDock 0.1.0 Beta 8\n\n- 系统取消安装后保留已校验的 APK。再次点「立即安装」会重新校验并打开 Android 系统安装界面。待安装的「取消安装」和「立即安装」分列两端。\n- 种子卡片显示其他辅种任务数。高级筛选支持按最少、最多辅种数组合筛选。\n- 种子卡片显示 Tracker 简称。应用设置可添加、修改和删除 Tracker 域名映射。\n- 任务页自动刷新保持静默，只有手动下拉显示刷新动画。\n- 种子详情按「信息｜Tracker｜文件｜用户」排列。任务操作收进信息栏，Tracker 栏提供重新汇报和脱敏后的诊断。\n- 种子详情和下载器管理支持左右滑动换页，保留已加载内容和各栏滚动位置。\n- 首页服务器卡片简化为名称、状态点和监控数据，磁盘可用容量显示为「可用空间」。\n\n## 辅种识别说明\n\n辅种识别仅在当前下载器内根据种子保存路径和大小进行快速匹配，不检查文件内容和 InfoHash。因此结果仅供筛选参考，可能存在误判或漏判，请勿将其作为文件完全相同的证明。\n",
+  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-8/SeedDock-beta-8.apk"
 }
