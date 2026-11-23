@@ -3,12 +3,12 @@
   "draft": false,
   "prerelease": true,
   "packageName": "com.xcheny.seeddock.beta",
-  "versionCode": 5,
-  "versionName": "0.1.0-beta.5",
+  "versionCode": 6,
+  "versionName": "0.1.0-beta.6",
   "minSdk": 24,
-  "apkSize": 11318779,
-  "sha256": "b3decc386704f2da4353497c9d572bc102f82cd4a66ba9073f320714ea830efc",
+  "apkSize": 11339315,
+  "sha256": "9ea5900be29fcb35ed1c5d5f6f3479c8b0ce0edd6899385b324bd139f96615cc",
   "signingCertificateSha256": "9790d474040e3530e39a052bbd1fd5d25e68e0e9868c4d3202959ce0d6e26327",
-  "releaseNotes": "种舵 0.1.0 Beta 5 公开测试版。\n\n- 固定种子详情「信息」页的可滚动区域，修复异步内容加载时面板高度跳变、切回页签时滚动位置丢失。\n- 下载进度条右侧显示实际百分比。APK 校验完成后提供「取消安装」和「立即安装」。\n- 缺少安装权限时打开 Android 系统授权页，授权返回后继续原安装。最终确认由 Android 系统处理。\n- 统计图表入口移到首页顶部，在设置左侧。服务器卡片标题区显示下载器版本。\n- 移除单服务器手动刷新和重复的种子详情按钮。首页下拉刷新仍可用，点击任务卡片打开详情，长按进入多选。\n- 支持同签名 Beta 4 原位升级，保留现有服务器、分组、排序、偏好和凭据。\n\nBeta 测试版本，可能存在尚未发现的问题。已修复可复现的高度跳变。此前报告的持续上下抖动在模拟器上未稳定复现，仍待实际设备体验确认。\n",
-  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-5/SeedDock-beta-5.apk"
+  "releaseNotes": "种舵 0.1.0 Beta 6 公开测试版。\n\n- 任务页恢复常驻搜索框，可按名称或 Hash 搜索。搜索文字与高级筛选同步，清除搜索时保留其他筛选条件。\n- 下载器管理增加「统计信息」，可在「设置」「统计信息」「日志」间切换。Transmission 标准 RPC 不提供日志。\n- Beta 默认在新的启动会话自动检查更新，保留用户明确关闭的设置。可忽略当前版本、稍后提醒或手动检查。\n- 更新说明、下载进度和待安装操作统一显示。系统取消安装后，可选择重新下载或使用 GitHub 官方链接。\n- 首页和统计页精简 Transmission 软件版本显示，版本诊断窗口保留完整信息。\n- 支持从同签名 Beta 5 原位覆盖升级，保留服务器、分组、排序、偏好和凭据。\n\nBeta 测试版本，可能存在尚未发现的问题。\n",
+  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-6/SeedDock-beta-6.apk"
 }
