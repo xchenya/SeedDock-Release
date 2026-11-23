@@ -3,12 +3,12 @@
   "draft": false,
   "prerelease": true,
   "packageName": "com.xcheny.seeddock.beta",
-  "versionCode": 4,
-  "versionName": "0.1.0-beta.4",
+  "versionCode": 5,
+  "versionName": "0.1.0-beta.5",
   "minSdk": 24,
-  "apkSize": 11318723,
-  "sha256": "728b54c548ef4c211585615fae3e0c7f0638e8888ef9c7155ea30a847f4d5be7",
+  "apkSize": 11318779,
+  "sha256": "b3decc386704f2da4353497c9d572bc102f82cd4a66ba9073f320714ea830efc",
   "signingCertificateSha256": "9790d474040e3530e39a052bbd1fd5d25e68e0e9868c4d3202959ce0d6e26327",
-  "releaseNotes": "种舵 Beta 4 公开测试版。\n\n- 首页默认每 5 秒刷新上下行速率，每台服务器可独立设置刷新频率。\n- 自动刷新保留现有卡片和速率。首页仍可手动下拉刷新。\n- 服务器卡片支持左右滑动，可访问置顶、编辑、删除、下载器设置、日志和单台刷新。\n- 新增组内编号编辑和置顶，优化分组入口与服务器高级设置。\n- 支持为单台服务器固定 HTTPS 证书指纹，并为 HTTPS 连接配置无认证 HTTP CONNECT 代理。\n- 授权安装后返回应用可继续原下载，安装完成提示只显示一次。\n- 支持同签名的 Beta 3 原位覆盖升级，保留服务器、分组、设置和凭据。\n\nBeta 测试版本，可能存在尚未发现的问题。系统授权和安装流程已在 MuMu API 32 验收，其他设备的安装界面及键盘适配尚未完整覆盖。\n",
-  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-4/SeedDock-beta-4.apk"
+  "releaseNotes": "种舵 0.1.0 Beta 5 公开测试版。\n\n- 固定种子详情「信息」页的可滚动区域，修复异步内容加载时面板高度跳变、切回页签时滚动位置丢失。\n- 下载进度条右侧显示实际百分比。APK 校验完成后提供「取消安装」和「立即安装」。\n- 缺少安装权限时打开 Android 系统授权页，授权返回后继续原安装。最终确认由 Android 系统处理。\n- 统计图表入口移到首页顶部，在设置左侧。服务器卡片标题区显示下载器版本。\n- 移除单服务器手动刷新和重复的种子详情按钮。首页下拉刷新仍可用，点击任务卡片打开详情，长按进入多选。\n- 支持同签名 Beta 4 原位升级，保留现有服务器、分组、排序、偏好和凭据。\n\nBeta 测试版本，可能存在尚未发现的问题。已修复可复现的高度跳变。此前报告的持续上下抖动在模拟器上未稳定复现，仍待实际设备体验确认。\n",
+  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-5/SeedDock-beta-5.apk"
 }
