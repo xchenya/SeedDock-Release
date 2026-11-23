@@ -3,12 +3,12 @@
   "draft": false,
   "prerelease": true,
   "packageName": "com.xcheny.seeddock.beta",
-  "versionCode": 3,
-  "versionName": "0.1.0-beta.3",
+  "versionCode": 4,
+  "versionName": "0.1.0-beta.4",
   "minSdk": 24,
-  "apkSize": 11224148,
-  "sha256": "cdd988682706863c42956b42b1a78d5ca0d3ce8bbc13c431f7506806db14b0ba",
+  "apkSize": 11318723,
+  "sha256": "728b54c548ef4c211585615fae3e0c7f0638e8888ef9c7155ea30a847f4d5be7",
   "signingCertificateSha256": "9790d474040e3530e39a052bbd1fd5d25e68e0e9868c4d3202959ce0d6e26327",
-  "releaseNotes": "种舵 Beta 3 公开测试版。\n\n- 优化首页紧凑布局和服务器监控，改善分组显示，默认隐藏服务器地址。\n- 优化任务列表与详情，改进搜索、排序和组合筛选。\n- 首页和任务列表支持下拉刷新。\n- 改进添加服务器、编辑服务器和应用设置。\n- 修复并发读取可能造成的缓存状态倒退。\n- 支持同签名 Beta 2 原位覆盖更新，保留服务器、分组、设置和凭据。\n\nBeta 测试版本，可能存在尚未发现的问题。\n",
-  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-3/SeedDock-beta-3.apk"
+  "releaseNotes": "种舵 Beta 4 公开测试版。\n\n- 首页默认每 5 秒刷新上下行速率，每台服务器可独立设置刷新频率。\n- 自动刷新保留现有卡片和速率。首页仍可手动下拉刷新。\n- 服务器卡片支持左右滑动，可访问置顶、编辑、删除、下载器设置、日志和单台刷新。\n- 新增组内编号编辑和置顶，优化分组入口与服务器高级设置。\n- 支持为单台服务器固定 HTTPS 证书指纹，并为 HTTPS 连接配置无认证 HTTP CONNECT 代理。\n- 授权安装后返回应用可继续原下载，安装完成提示只显示一次。\n- 支持同签名的 Beta 3 原位覆盖升级，保留服务器、分组、设置和凭据。\n\nBeta 测试版本，可能存在尚未发现的问题。系统授权和安装流程已在 MuMu API 32 验收，其他设备的安装界面及键盘适配尚未完整覆盖。\n",
+  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-4/SeedDock-beta-4.apk"
 }
