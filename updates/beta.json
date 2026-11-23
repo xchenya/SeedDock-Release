@@ -3,12 +3,12 @@
   "draft": false,
   "prerelease": true,
   "packageName": "com.xcheny.seeddock.beta",
-  "versionCode": 1,
-  "versionName": "0.1.0-beta.1",
+  "versionCode": 2,
+  "versionName": "0.1.0-beta.2",
   "minSdk": 24,
-  "apkSize": 10916867,
-  "sha256": "d16ccd8149c3ef82613e28299d0bdea8e01ee2c91e9359a0755c4f27288b185c",
+  "apkSize": 11183020,
+  "sha256": "0374b2a9204897e5ca37efba9ae79f78449ad73f32963e6c3460191006917f8e",
   "signingCertificateSha256": "9790d474040e3530e39a052bbd1fd5d25e68e0e9868c4d3202959ce0d6e26327",
-  "releaseNotes": "种舵首个公开测试版。\n• 支持 qBittorrent 和 Transmission 服务器管理，可自定义服务器分组、排序和折叠状态。\n• 统一主要页面转场及系统返回动效。\n• 支持从 GitHub 官方或 GH-Proxy v4 下载更新。应用内下载会校验 APK 完整性和签名。\n",
-  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-1/SeedDock-beta-1.apk"
+  "releaseNotes": "种舵 Beta 2 公开测试版。\n• 首页新增服务器、分组和全局监控，自动刷新可立即获取首份状态。\n• 任务列表新增组合筛选；详情新增文件树、Peer 和更多任务信息。\n• 新增下载器设置、日志、主题配色和可选的前台自动检查更新。\n",
+  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-2/SeedDock-beta-2.apk"
 }
