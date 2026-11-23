@@ -3,12 +3,12 @@
   "draft": false,
   "prerelease": true,
   "packageName": "com.xcheny.seeddock.beta",
-  "versionCode": 2,
-  "versionName": "0.1.0-beta.2",
+  "versionCode": 3,
+  "versionName": "0.1.0-beta.3",
   "minSdk": 24,
-  "apkSize": 11183020,
-  "sha256": "0374b2a9204897e5ca37efba9ae79f78449ad73f32963e6c3460191006917f8e",
+  "apkSize": 11224148,
+  "sha256": "cdd988682706863c42956b42b1a78d5ca0d3ce8bbc13c431f7506806db14b0ba",
   "signingCertificateSha256": "9790d474040e3530e39a052bbd1fd5d25e68e0e9868c4d3202959ce0d6e26327",
-  "releaseNotes": "种舵 Beta 2 公开测试版。\n• 首页新增服务器、分组和全局监控，自动刷新可立即获取首份状态。\n• 任务列表新增组合筛选；详情新增文件树、Peer 和更多任务信息。\n• 新增下载器设置、日志、主题配色和可选的前台自动检查更新。\n",
-  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-2/SeedDock-beta-2.apk"
+  "releaseNotes": "种舵 Beta 3 公开测试版。\n\n- 优化首页紧凑布局和服务器监控，改善分组显示，默认隐藏服务器地址。\n- 优化任务列表与详情，改进搜索、排序和组合筛选。\n- 首页和任务列表支持下拉刷新。\n- 改进添加服务器、编辑服务器和应用设置。\n- 修复并发读取可能造成的缓存状态倒退。\n- 支持同签名 Beta 2 原位覆盖更新，保留服务器、分组、设置和凭据。\n\nBeta 测试版本，可能存在尚未发现的问题。\n",
+  "downloadUrl": "https://github.com/xchenya/SeedDock-Release/releases/download/beta-3/SeedDock-beta-3.apk"
 }
